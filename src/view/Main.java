@@ -34,8 +34,7 @@ public class Main extends Application {
 
     static {
         try (FileInputStream serviceAccount =
-                     new FileInputStream("../../../res/shelterfinder-6d316-"
-                             + "firebase-adminsdk-x6k4u-8fa46154b0.json")) {
+                     new FileInputStream("../../../res/shelterfinder-6d316-firebase-adminsdk-x6k4u-0a53bdc067.json")) {
 
             var options = new FirebaseOptions.Builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
